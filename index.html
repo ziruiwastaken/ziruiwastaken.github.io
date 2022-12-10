@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7d5d5348e2.js" crossorigin="anonymous"></script>
+  <script src="//unpkg.com/alpinejs" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <!-- NAV BAR -->
+  <nav class="nav-container">
+    <!-- LOGO -->
+    <div class="nav-logo">
+      <a class="nav-title" href="">
+        <img src="assets/img/circle-scatter-haikei.svg" width="30" height="auto" alt="">
+        <span style="color:hsl(183, 56%, 52%);">Nama</span> Web
+      </a>
+    </div>
+    <!-- MENU -->
+    <ul class="nav-items">
+      <li><a href="#hero">Beranda</a></li>
+      <li><a href="#products">Produk</a></li>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#contacts">Kontak</a></li>
+    </ul>
+    <!-- ICON -->
+    <div class="icon-box">
+      <a href="https://www.whatsapp.com/">
+        <i class="fa-brands fa-whatsapp icon"></i>
+      </a>
+      <a href="https://www.facebook.com/">
+        <i class="fa-brands fa-facebook icon"></i>
+      </a>
+      <a href="https://www.instagram.com/">
+        <i class="fa-brands fa-instagram icon"></i>
+      </a>
+    </div>
+  </nav>
+  <!-- HERO PAGE -->
+  <section class="container" id="hero">
+    <div>
+      <img id="hero" src="assets/img/hero-img.png" width="250" heigth="auto" alt="">
+    </div>
+    <div class="hero-text">
+      <h1>
+        Kami <span style="color:hsl(183, 56%, 52%);">tidak pernah</span> meragunakan tamu
+      </h1>
+      <p class="subtitle">
+        Meskipun permintaannya aneh aneh.
+      </p>
+      <div>
+        <button>
+          <a href="#products">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Belanja
+          </a>
+        </button>
+  </section>
+  <section class="container services">
+    <div class="title">
+      <h2>
+        Kunjungi Toko Kami
+      </h2>
+      <div class="line"></div>
+    </div>
+    <div class="services-box">
+      <a href="https://www.tokopedia.com/"><img class="raise" src="assets/img/tokopedia-logo.png" height="75"
+          width="auto" alt=""></a>
+      <a href="https://www.bukalapak.com/"><img class="raise" href="" src="assets/img/bukalapak-logo.png" height="75"
+          width="auto" alt=""></a>
+      <a href="https://www.blibli.com/"><img class="raise" href="" src="assets/img/blibli-logo.png" height="75"
+          width="auto" alt=""></a>
+      <a href="https://www.lazada.com/"><img class="raise" href="" src="assets/img/lazada-logo.png" height="75"
+          width="auto" alt=""></a>
+    </div>
+  </section>
+  <!-- PRODUCTS PAGE -->
+  <!-- Swiper -->
+  <section class="container" id="products">
+    <div class="title">
+      <h2>
+        Produk
+      </h2>
+      <div class="line"></div>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide card">
+          <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+          <div class="product-info">
+            <h3>Nama Produk</h1>
+              <p class="price">Rp100.000</p>
+              <p>Deskripsi Singkat Produk</p>
+              <button>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Pesan
+                </a>
+              </button>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+          <div class="product-info">
+            <h3>Nama Produk</h1>
+              <p class="price">Rp100.000</p>
+              <p>Deskripsi Singkat Produk</p>
+              <button>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Pesan
+                </a>
+              </button>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+          <div class="product-info">
+            <h3>Nama Produk</h1>
+              <p class="price">Rp100.000</p>
+              <p>Deskripsi Singkat Produk</p>
+              <button>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Pesan
+                </a>
+              </button>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+          <div class="product-info">
+            <h3>Nama Produk</h1>
+              <p class="price">Rp100.000</p>
+              <p>Deskripsi Singkat Produk</p>
+              <button>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Pesan
+                </a>
+              </button>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+          <div class="product-info">
+            <h3>Nama Produk</h1>
+              <p class="price">Rp100.000</p>
+              <p>Deskripsi Singkat Produk</p>
+              <button>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Pesan
+                </a>
+              </button>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+          <div class="product-info">
+            <h3>Nama Produk</h1>
+              <p class="price">Rp100.000</p>
+              <p>Deskripsi Singkat Produk</p>
+              <button>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Pesan
+                </a>
+              </button>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+          <div class="product-info">
+            <h3>Nama Produk</h1>
+              <p class="price">Rp100.000</p>
+              <p>Deskripsi Singkat Produk</p>
+              <button>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Pesan
+                </a>
+              </button>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+          <div class="product-info">
+            <h3>Nama Produk</h1>
+              <p class="price">Rp100.000</p>
+              <p>Deskripsi Singkat Produk</p>
+              <button>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Pesan
+                </a>
+              </button>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+          <div class="product-info">
+            <h3>Nama Produk</h1>
+              <p class="price">Rp100.000</p>
+              <p>Deskripsi Singkat Produk</p>
+              <button>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Pesan
+                </a>
+              </button>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+          <div class="product-info">
+            <h3>Nama Produk</h1>
+              <p class="price">Rp100.000</p>
+              <p>Deskripsi Singkat Produk</p>
+              <button>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Pesan
+                </a>
+              </button>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+          <div class="product-info">
+            <h3>Nama Produk</h1>
+              <p class="price">Rp100.000</p>
+              <p>Deskripsi Singkat Produk</p>
+              <button>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Pesan
+                </a>
+              </button>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+          <div class="product-info">
+            <h3>Nama Produk</h1>
+              <p class="price">Rp100.000</p>
+              <p>Deskripsi Singkat Produk</p>
+              <button>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Pesan
+                </a>
+              </button>
+          </div>
+        </div>
+        
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+
+    <!-- <div class="card">
+      <img class="img-product" src="assets/img/placeholder700700.png" alt="Denim Jeans" style="width:100%">
+      <div class="product-info">
+        <h3>Nama Produk</h1>
+          <p class="price">Rp100.000</p>
+          <p>Deskripsi Singkat Produk</p>
+          <button>
+            <a href="">
+              <i class="fa-brands fa-whatsapp"></i>
+              Pesan
+            </a>
+          </button>
+      </div>
+    </div> -->
+    <!-- <div id="more"><a><i class="fa-solid fa-grip"></i>Lihat Semua</a></div> -->
+  </section>
+  <section class="container services">
+    <div class="title">
+      <h2>
+        Melayani Pengiriman
+      </h2>
+      <div class="line"></div>
+    </div>
+    <div class="services-box">
+      <a href="https://www.sicepat.com/"><img class="raise" src="assets/img/SiCepat Ekspres-Logo.svg" height="50"
+          width="auto" alt=""></a>
+      <a href="https://jet.co.id/track"><img class="raise" src="assets/img/J&T Express-Logo.svg" height="auto"
+          width="200" alt=""></a>
+      <a href="https://www.jne.co.id/id/beranda"><img class="raise" src="assets/img/JNE Express-Logo.svg" height="50"
+          width="auto" alt=""></a>
+    </div>
+  </section>
+  <!-- ABOUT US -->
+  <section class="container" id="about-us">
+    <div class="title">
+      <h2>
+        About Us
+      </h2>
+      <div class="line"></div>
+    </div>
+    <div class="about-box">
+      <img src="assets/img/about-img.png" width="150" alt="">
+      <div>
+        <h2 class="reverse">
+          Toko Anda
+        </h2>
+        <p class="reverse">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam non iusto sequi molestias. Cupiditate nemo
+          rem labore, optio molestias magnam perferendis voluptas est esse in sequi, dicta possimus sed dolor. Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit. Deleniti minus ab a molestias. Sit magni libero quibusdam,
+          vel voluptatum, repellat architecto numquam suscipit deleniti quasi excepturi commodi rerum, sapiente quam?
+        </p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="container services">
+    <div class="title">
+      <h2>
+        Menerima Pembayaran
+      </h2>
+      <div class="line"></div>
+    </div>
+    <div class="services-box">
+      <a href=""><img class="raise" src="assets/img/bri-logo.svg" height="50" width="auto" alt=""></a>
+      <a href=""><img class="raise" src="assets/img/bank-mandiri-logo.svg" height="auto" width="200" alt=""></a>
+      <a href=""><img class="raise" src="assets/img/bca-logo.svg" height="50" width="auto" alt=""></a>
+    </div>
+  </section>
+  <footer class="container" id="contacts">
+    <div class="footer-box">
+      <a href="">
+        <i class="fa-brands fa-whatsapp icon reverse"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-facebook icon reverse"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-instagram icon reverse"></i>
+      </a>
+    </div>
+    <div class="footer-box">
+      <p class="reverse">+62 123 456 789</p>
+      <p class="reverse">Jalan Belum Ada 27, Bikini Bottom</p>
+    </div>
+  </footer>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        "@0.00": {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        "@1.00": {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        "@1.50": {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+    });
+  </script>
+</body>
+
+</html>
