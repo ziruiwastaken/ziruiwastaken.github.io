@@ -156,11 +156,11 @@ div.line {
 }
 
 section#products {
-    padding: 2rem;
+    padding: 0rem 0rem;
 }
 
 .img-product {
-    height: 125;
+    height: 125px;
     width: 125px;
     border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
@@ -169,12 +169,11 @@ div.product-info {
     display: flex;
     flex-direction: column;
     padding-top: 1rem;
+    font-size: 1.25rem;
 }
 
 div.card {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    max-width: 300px;
-    margin: auto;
     border-radius: 0rem 0rem 0.5rem 0.5rem;
     margin-bottom: 1rem;
 
@@ -282,9 +281,9 @@ div.footer-box>p {
         justify-content: space-between;
     }
 
-    div.products-box>div>div.card:last-child {
-        margin-left: 1rem;
-    }
+    /* div.products-box>div>div.card:last-child {
+         margin-left: 1rem;
+    } */
 
     section.container#about-us {
         padding: 3rem 2rem;
@@ -304,6 +303,14 @@ div.footer-box>p {
 
     section.services>div.services-box>a {
         padding: 0rem;
+    }
+
+    div.product-info{
+        font-size: 1rem;
+    }
+
+    div.product-info>button {
+        margin: 1rem 0rem;
     }
 }
 
@@ -338,7 +345,7 @@ div.footer-box>p {
 
     div.card {
         padding: 0rem;
-        margin: 0rem 1rem;
+        /* margin: 0rem 1rem; */
     }
 
     div#more {
@@ -381,15 +388,14 @@ div.footer-box>p {
     }
 }
 
+
 .swiper {
     width: 100%;
     height: 100%;
-    margin: 2rem 0rem
 }
 
 .swiper-slide {
     text-align: center;
-    font-size: 18px;
     background: #fff;
 
     /* Center slide text vertically */
@@ -407,8 +413,11 @@ div.footer-box>p {
     align-items: center;
 }
 
-.swiper {
-    padding-bottom: 4rem;
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .swiper-slide {
@@ -416,8 +425,39 @@ div.footer-box>p {
     flex-direction: column;
 }
 
+.swiper {
+    padding-bottom: 4rem;
+}
+/* 
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+
 .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
-}
+} */
